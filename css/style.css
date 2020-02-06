@@ -1,0 +1,518 @@
+/*
+Author: Wesley Azevedo
+Author URL: https://www.facebook.com/profile.php?id=100025350166738
+License: Demo, site de teste.
+License URL: https://www.facebook.com/profile.php?id=100025350166738
+*/
+
+
+body {
+	padding: 0;
+	margin: 0;
+
+}
+
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+.container {
+    width: 100%;
+    max-width: 1124px;
+    margin: 0 auto;
+    height: auto;
+}
+
+
+section {
+	width: 100%;
+	float: left;
+}
+
+
+header {
+	width: 100%;
+    float: left;
+}
+
+header .menu {
+	width: 100%;
+	background: #f5f5f5;
+	float: left;
+}
+
+
+header .menu .menucorpo {
+	height: 25px;
+}
+
+
+header .menu .portal {
+	width: 146px;
+	height: 17.15px;
+	background-image: url('../img/portal.png');
+	float: left;
+	margin: 4px 0px 0px 0px;
+}
+
+
+header .menu .gps {
+	width: 176px;
+	height: 17.33px;
+	background-image: url('../img/gps.png');
+	float: right;
+	margin: 3.67px 0px 0px 30px;
+}
+
+
+
+header .menu .contato {
+	width: 96px;
+	height: 16px;
+	background-image: url('../img/contato.png');
+	float: right;
+	margin: 3.67px 0px 0px 0px;
+}
+
+
+
+header .logo {
+	width: 200px;
+	height: 51px;
+	background-image: url('../img/logo.png');
+	float: left;
+	margin: 18px 0px 0px 0px;
+}
+
+
+
+header .central {
+	width: 187px;
+	height: 53px;
+	background-image: url('../img/central.png');
+	float: right;
+	margin: 17px 0px 0px 0px;
+}
+
+
+header .fundo {
+	width: 100%;
+	height: 400px;
+	background-image: url('../img/fundo.png');
+	margin: 115px 0px 0px 0px;
+	position: relative;
+}
+
+
+
+header .selo {
+	width: 130px;
+	height: 130px;
+	background-image: url('../img/selo.png');
+	float: left;
+	margin: 242px 0px 0px 10px;
+}
+
+
+
+header .formulario {
+	width: 280px;
+	height: 365px;
+	background-image: url('../img/bgformulario.png');
+	float: right;
+	position: absolute;
+    right: 80px;
+    top: 77px;
+}
+
+
+header .formulario .form-class {
+	margin-top: 101px;
+}
+
+
+header .formulario input {
+	    box-shadow: none !important;
+}
+
+
+header .formulario input.nome {
+	max-width: 200px;
+    background: none;
+    border: none;
+    position: relative;
+    left: 55px;
+    top: -10px;
+    padding: 10px;
+}
+
+
+header .formulario input.email {
+	max-width: 200px;
+    background: none;
+    border: none;
+    position: relative;
+    left: 55px;
+    top: -24px;
+    padding: 10px;
+}
+
+
+header .formulario input.telefone {
+	max-width: 200px;
+background: none;
+    border: none;
+    position: relative;
+    left: 55px;
+    top: -35px;
+    padding: 10px;
+}
+
+
+header .formulario select.sele1 {top: -48px;max-width: 200px;}
+header .formulario select.sele2{top: -60px;max-width: 200px;}
+
+
+
+header .formulario #submit {
+    width: 230px;
+    height: 45px;
+    background-image: url(../img/sub.png);
+    border: none;
+    position: relative;
+    left: 29px;
+    top: -63px;
+    cursor: pointer;
+}
+
+
+header .formulario input::placeholder {
+  color: #b9b9b9;
+}
+
+.select {
+    width: 100%;
+    max-width: 190px;
+    background: none;
+    border: none;
+    position: relative;
+    left: 55px;
+    top: 9px;
+    padding: 10px;
+    color: #b9b9b9;
+}
+
+
+
+
+section .title1 {
+    width: 729px;
+    height: 46px;
+    background-image: url(../img/title1.png);
+    margin-top: 30px;
+    background-size: 98%;
+    background-repeat: no-repeat;
+}
+
+section .title2 {
+    width: 496px;
+    height: 77px;
+    background-image: url(../img/title2.png);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-size: 98%;
+    background-repeat: no-repeat;
+}
+
+section .galeria {
+	width: 100%;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+section .galeria .left {
+    width: 170px;
+    height: 326px;
+    float: left;
+}
+
+section .galeria .right {
+    width: 679.5px;
+    height: 212px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+
+section .galeria .foto {
+	width: 170px;
+	height: 102px;
+	margin-top: 10px;
+	background-image: url(../img/bgfoto.png);
+	cursor: pointer;
+}
+
+
+section .galeria .foto img {
+	width: 164.96px;
+    height: 95.71px;
+    margin: 3px 2px 2px 3px;
+}
+
+
+section .r11bg {
+	width: 100%;
+	height: 415px;
+	float: left;
+	background-image: url(../img/r11.png);
+	margin-top: 45px;
+
+}
+
+
+section .r11bg .texto {
+	width: 684px;
+	height: 77px;
+	float: left;
+	background-image: url(../img/Grupo114.png);
+	margin-top: 305px;
+}
+
+
+
+
+
+.owl-carousel.owl-drag .owl-item,.active {
+	width: 100%;
+}
+
+
+#demos .owl-carousel .item {
+	min-height: 25rem;
+	padding: 0px !important;
+	background: transparent !important;
+	cursor: pointer;
+}
+
+
+#demos .owl-carousel .item p {
+	text-align: center;
+}
+
+
+
+
+
+.owl-dots {
+	width: 100px;
+    margin: 0 auto;
+}
+
+
+
+button.owl-dot.active {
+	padding: 0 !important;
+    margin: 0;
+    float: left;
+    width: auto;
+}
+
+
+.owl-theme .owl-nav {
+    width: 100%;
+    height: 39px;
+    position: absolute;
+    top: 75px;
+}
+
+
+.owl-prev span {
+	display: none;
+}
+
+.owl-next span {
+	display: none;
+}
+
+
+.owl-prev {
+	width: 39px;
+	height: 39px;
+	background-image: url(../img/left.png) !important;
+	float: left;
+	margin-left: 15px !important;
+}
+
+.owl-next {
+	width: 39px;
+	height: 39px;
+	background-image: url(../img/right.png) !important;
+	float: right;
+	margin-right: 15px !important;
+}
+
+
+button:focus{
+  outline-style: none;
+}
+
+.owl-theme .owl-nav .owl-next:hover {
+    background: url(../img/right.png) !important;
+}
+.owl-theme .owl-nav .owl-prev:hover {
+    background: url(../img/left.png) !important;
+}
+
+
+.owl-theme .owl-nav .disabled {
+	opacity: 100% !important;
+}
+
+
+section .corpoL {
+    width: 900px;
+    float: left;
+}
+
+
+section .lancamentos {
+	width: 270px;
+	height: 350px;
+	background: url(../img/RE27.png);
+	padding-top: 2px;
+	float: left;
+	margin-right: 30px;
+}
+
+
+section .lancamentos .carros{
+	width: 211px;
+	height: 179px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+
+section .lancamentos .texto{
+	width: 230px;
+	margin: 0 auto;
+}
+
+section .lancamentos .texto img{
+	margin-top: 10px;
+}
+
+section .lancamentos .mais{
+	width: 230px;
+	height: 36px;
+	margin: 0 auto;
+}
+
+section .lancamentos .mais img{
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+
+
+
+footer {
+	width: 100%;
+	float: left;
+	height: 228px;
+	background:#eeeeee;
+	margin-top: 50px;
+}
+
+footer .corpo {
+    width: 570px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+
+footer .encontre{
+	width: 270px;
+	height: 80px;
+	cursor: pointer;
+	background: url(../img/Grupo130.png);
+	float: left;
+}
+
+footer .central{
+	width: 270px;
+	height: 80px;
+	cursor: pointer;
+	background: url(../img/Grupo131.png);
+	float: left;
+	margin-left: 30px;
+}
+
+.owl-carousel .owl-item img {
+	height: 100%;
+}
+
+.owl-dots {
+	margin-top: 30px;
+}
+
+footer .redes_corpo{
+	width: 100%;
+	float: left;
+	margin-top: 25px;
+}
+
+
+footer .redes{
+	width: 378px;
+	height: 32px;
+	background: url(../img/redes.png);
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+
+footer .social_corpo {
+    width: 162px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+footer .insta , .face , .tw {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+
+
+
+.footerF {
+	width: 100%;
+	height: 80px;
+	background: #fff;
+	float: left;
+	padding-top: 15px;
+}
+
+.footerF_corpo {
+    width: 520px;
+    height: 52px;
+    margin: 0 auto;
+    background: url(../img/footerfinal.png);
+}
+
+.footerF img{
+	width: 520px;
+	height: 52px;
+	margin: 0 auto;
+
+}
